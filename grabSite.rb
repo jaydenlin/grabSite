@@ -26,7 +26,7 @@ cssSrcList = doc.css("link").map {|element| element["href"]}
 
 def createTestPage(uri,outputPath)
     doc=`curl #{uri}`
-    localDoc=doc.to_s.gsub("http://c.tw.rakuten-static.com/front/www/js","js")
+    localDoc=doc.to_s.encode!('UTF-8', 'UTF-8', :invalid => :replace).gsub("http://c.tw.rakuten-static.com/front/www/js","js")
     localDoc=localDoc.to_s.gsub("http://c.tw.rakuten-static.com/front/www/css","css")
     FileUtils.mkdir_p("#{outputPath}")
     File.write("#{outputPath}/test.html",localDoc)

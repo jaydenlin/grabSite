@@ -1,0 +1,292 @@
+
+
+/* [begin] image search popup box css */
+#inline1 iframe{position:static;}
+
+	#more{
+		margin: 20px auto;
+		cursor:pointer;
+		width:100px;
+		height:30px;
+		background:url(http://tw.rakuten-static.com/front/www/img/event/fashionstyle/toppage/ui2/show_more.png) no-repeat 0 0;
+		display:none;		
+		}
+	#more:active{background-position:0 -30px;}
+	#inline1 iframe{position:static;}
+
+	#popbox   #tkcode{display:none;}
+
+	#popbox #popbox_2 .more ul li{list-style-type:none;}
+		#popbox #popbox_2 .more ul li img{ width:120px;}
+		#popbox #popbox_2 .more ul li  a { 
+				border:1px solid #ddd;
+				display:block;
+				width: 120px;
+				height: 120px;
+				overflow: hidden;
+		}
+		#popbox #popbox_2 .more ul li  a:hover{ border:1px solid #666;	}		
+		
+		#popbox #popbox_2 .more ul li{float:left;margin-right:10px;margin-bottom:10px;}
+		  #pop_header{
+			background-color: #e2e2e2;
+			height: 40px;
+			padding-right: 0px;
+			line-height: 31px;
+			padding-left: 20px;
+			padding-top: 0px;
+			padding-bottom: 0px;
+			border-bottom-width: 1px;
+			border-bottom-style: solid;
+			border-bottom-color: #CCC;
+		}
+		#popbox .popbox_title1{
+			color: #666;
+			font-size: 13px;
+			padding-top: 5px;
+			padding-right: 5px;
+			padding-bottom: 5px;
+			padding-left: 0px;
+			text-align:left;
+		}
+		#popbox .popbox_title1 a{text-decoration:none;}
+		#popbox .popbox_title1 a:hover{text-decoration:underline;}
+		
+	#popbox	{padding: 10px 20px;}
+		#popbox #popbox_1{width:440px;margin-left:10px;}
+		#popbox #popbox_1 .pop_img img{max-width:400px;padding:20px;}
+		#popbox #popbox_2{width:185px; margin-left:20px;}		
+		#popbox #popbox_1,#popbox #popbox_2{ float:left;}
+		
+		#popbox #popbox_1 .pop_img_box{
+			background:#fff;
+			width: 440px;
+			border: 1px solid #ddd;
+			-webkit-box-shadow: #ccc 0px 1px 3px;
+			-moz-box-shadow: #ccc 0px 1px 3px;
+			box-shadow: #ccc 0px 1px 3px;
+			position: relative;
+			padding-bottom: 10px;
+			margin-bottom: 20px;
+				
+		}
+		#popbox #popbox_1  h2, #popbox #popbox_1  h2 a{
+				text-align:left;
+				color: #666;
+				font-weight: normal;
+				font-size: 15px;
+				margin: 0px;
+				padding-top: 5px;
+				padding-right: 20px;
+				padding-bottom: 0px;
+				padding-left: 20px;
+				text-decoration:none;
+		}
+		#popbox #popbox_1  h2 a{padding:0;line-height:1.7em;letter-spacing:1px;}
+		
+		#popbox #popbox_1  h2 a:hover{text-decoration:underline;}
+		
+			.vi_product_maintxt{
+				padding-right: 20px;
+				padding-left: 20px;
+				color: #555;
+			}
+			.vi_product_maintxt span{
+
+				font-size: 16px;
+				color: #B81A22;
+
+			}
+			.vi_product_maintxt h2{
+				color: #666;
+				font-weight: normal;
+				font-size: 15px;
+				margin: 0px;
+				padding-top: 5px;
+				padding-right: 0px;
+				padding-bottom: 0px;
+				padding-left: 0px;
+			}
+			.vi_product_maintxt_l{
+				float: left;
+				font-size: 13px;
+				line-height: 25px;
+			}
+			.vi_product_maintxt_r{
+				float: right;
+				
+			}
+		
+		.vi_product_deatil_share{
+			vertical-align: bottom;
+			padding-top: 4px;
+			float: left;
+			visibility: inherit;
+		}
+		.vi_product_deatil_close{
+			float: right;
+			border-left-width: 1px;
+			border-left-style: solid;
+			border-left-color: #FFF;
+			display: block;
+		}
+		.vi_product_deatil_close A:hover,.vi_product_deatil_close A:active{
+			background-color: #666;
+		}
+		.vi_product_deatil_close A{
+			padding: 5px;
+			display: block;
+		}			
+		.fancybox-close{display:none;}
+		
+.vi_btnwhite {
+background-image: url(http://c.tw.rakuten-static.com/front/www/img/event/fashionstyle/item/ui/btn.png);
+color: #555;
+background-repeat: no-repeat;
+background-position: left -60px;
+padding-top: 5px;
+padding-right: 20px;
+padding-bottom: 5px;
+padding-left: 20px;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+border: 1px solid #999;
+cursor: pointer;
+}
+
+
+.vi_btnwhite:hover, .vi_btnwhite:active {
+background-image: url(http://c.tw.rakuten-static.com/front/www/img/event/fashionstyle/item/ui/btn.png);
+color: #333;
+background-repeat: no-repeat;
+background-position: left -70px;
+}		
+
+		
+			
+.vi_btnred,#wrapper #event_content	.box_n,#button{
+	background-image: url(http://c.tw.rakuten-static.com/front/www/img/event/fashionstyle/item/ui/btn.png);
+	color: #FFF;
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-top: 5px;
+	padding-right: 20px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	border: 1px solid #9A0C13;
+	cursor: pointer;
+	text-decoration:none;
+	}
+	
+	#wrapper #event_content	.box_n{
+		position:absolute;
+		margin-left:130px;
+		margin-top:-28px;
+		padding:0px 20px 0px 20px;
+		line-height:22px;
+		font-size: 13px;
+		cursor: pointer;
+	}	
+		
+.vi_btnred:hover,.vi_btnred:active ,#wrapper #event_content .box_n:active,#button:active{
+		background-image: url(http://c.tw.rakuten-static.com/front/www/img/event/fashionstyle/item/ui/btn.png);
+		color: #FFF;
+		background-repeat: no-repeat;
+		background-position: left -10px;
+	}
+/* [end] image search popup box css */		
+
+
+
+
+	
+/*[begin]  image search modify  original html */
+	#a_wrapper #doc2 #bd #yui-main .yui-u.first div ul.prd li div.box{
+			width:138px;
+			height:168px;
+		}
+	#a_wrapper #doc2 #bd #yui-main .yui-u.first div ul.prd li div.box a{
+		display:block;
+		overflow:hidden;
+		position:absolute;
+		width:125px;
+		height:168px;
+		margin-left:6px;
+		cursor:-webkit-zoom-in;cursor:-moz-zoom-in;cursor:zoom-in;
+		}	
+
+	#a_wrapper #doc2 #bd #yui-main .yui-u.first div ul.prd li div.box a div.vz{
+		position:absolute;
+		width:41px;
+		height:36px;
+		background:url(http://c.tw.rakuten-static.com/front/www/img/category/lady/ui/simg.png) no-repeat 0 0;
+		right:-41px;
+	}
+	
+
+	
+	
+	
+	
+	#a_wrapper #doc2 #bd #yui-main .yui-u.first div ul.prd li div.box a div.bottom{
+		height:28px;
+		width:125px;
+		background:url(http://c.tw.rakuten-static.com/front/www/img/category/lady/ui/simg.png) repeat 5px -50px;
+		position:absolute;
+		margin-top:-38px;
+		display:none;
+	}
+	
+	
+	#a_wrapper #doc2 #bd #yui-main .yui-u.first div ul.prd li div.box    div.bottom{
+		height:28px;
+		width:125px;
+		background:url(http://c.tw.rakuten-static.com/front/www/img/category/lady/ui/simg.png) repeat 5px -50px;
+		position:absolute;
+		display:none;
+		margin-left:5px;
+		margin-top:130px;
+	}
+	
+	
+	#a_wrapper #doc2 #bd #yui-main .yui-u.first div ul.prd li div.box   div.bottom   .ddbtn{
+		display:block;
+		width:60px;
+		height:17px;
+		display:block;
+		background:url(http://c.tw.rakuten-static.com/front/www/img/category/lady/ui/simg.png) repeat 0 -88px;
+		margin-left:58px;
+		margin-top:4px;
+		color:#fff;
+		padding-left: 5px;
+		font-size:11px;
+		letter-spacing:1px;
+		padding-top:5px;
+		cursor:pointer;	
+	}
+	#a_wrapper #doc2 #bd #yui-main .yui-u.first div ul.prd li div.box   div.bottom   .ddbtn:hover{text-decoration:none;}
+	
+	
+	/*
+	#a_wrapper #doc2 #bd #yui-main .yui-u.first div ul.prd li div.box a div.bottom  .ddbtn{
+		display:block;
+		width:60px;
+		height:17px;
+		display:block;
+		background:url(http://c.tw.rakuten-static.com/front/www/img/category/lady/ui/simg.png) repeat 0 -88px;
+		margin-left:58px;
+		margin-top:4px;
+		color:#fff;
+		padding-left: 5px;
+		
+		font-size:11px;
+		letter-spacing:1px;
+		padding-top:5px;
+		cursor:pointer;
+	}
+	*/
+/*[end]  image search modify  original html */	

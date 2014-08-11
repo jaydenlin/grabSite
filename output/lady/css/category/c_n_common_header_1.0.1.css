@@ -1,0 +1,1540 @@
+﻿@charset "utf-8";
+/* CSS Document */
+/********2013.12.06 Redesign*********/
+/********header*********/
+/********header*********/
+/********header*********/
+/********background-image: url(../../img/top/sprit/subbox_line.png);*********/
+
+/**************rakuten_top_2.0.3.css**************/
+
+.header_tab {
+	height: auto;
+	width: 950px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	padding:0;
+	position: relative;
+	z-index: 100;
+}
+.header_tab .ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+.header_tab li {
+	float: left;
+	width: auto;
+	margin-left: 5px;
+}
+.header_tab .menus {
+	height: 35px;
+	width: 950px;
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	background: url(http://c.tw.rakuten-static.com/front/www/img/top/sprit/topnav_left_bg.png) repeat-x;
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-top-right-radius: 3px;
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-topright: 3px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+#tab_main li {
+	margin-left: 15px;
+	background-repeat: no-repeat;
+	background-position: right top;
+	height: 22px;
+	padding-right: 15px;
+	padding-top: 3px;
+	list-style-type: none;
+}
+.header_tab .menus a {
+	display: block;
+	font-size: 13px;
+	text-decoration: none;
+	color: #FFF;
+	margin:-10px -18px;
+	padding:10px 18px;
+}
+.header_tab .menus a:hover {
+	color: #FFF;
+	text-decoration: underline;
+}
+#tab_main {
+	float: left;
+	width: auto;
+	height: 29px;
+	margin: 0px;
+	display: block;
+	padding-top: 6px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 3px;
+}
+#tab_subnav {
+	background: url(http://c.tw.rakuten-static.com/front/www/img/top/sprit/topnav_right_bg.png) repeat-x;
+	float: right;
+	display: block;
+	height: 35px;
+	margin: 0px;
+	width: 13px;
+	-webkit-border-top-right-radius: 3px;
+	-moz-border-radius-topright: 3px;
+	border-top-right-radius: 3px;
+	-webkit-border-top-left-radius: 3px;
+	-moz-border-radius-topleft: 3px;
+	border-top-left-radius: 3px;
+	/*padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;*/
+	list-style-type: none;
+	padding-right: 90px;
+}
+#tab_subnav .right_coum {
+	margin-left: 1px;
+	background-repeat: no-repeat;
+	background-position: right top;
+	height: 22px;
+	background-image: url(http://c.tw.rakuten-static.com/front/www/img/top/sprit/topnav_right_line.png);
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 4px;
+	list-style-type: none;
+	margin-top:-30px;
+	width:90px;
+	text-align: center !important;
+}
+/*#tab_subnav .right_coum:hover  {
+	background-image: url(../images/topnav_hover_05.png)!important;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	height: 25px;
+	display: block;
+	margin-top: 0px;
+	padding-top: 8px;
+	}*/
+
+.header_tab #tab_subnav .first {
+	background-image: url(http://c.tw.rakuten-static.com/front/www/img/top/sprit/topnav_center_bg.png);
+	background-repeat: no-repeat;
+	height: 35px;
+	width: 30px;
+	margin: 0px;
+	padding: 0px;
+}
+.menus #tab_main .active {
+	background-image: url(http://c.tw.rakuten-static.com/front/www/img/top/sprit/topnav_hover_03.png)!important;
+	background-repeat: no-repeat;
+	height: 27px;
+	background-position: center bottom;
+	display: block;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-top: -5px;
+	margin-top: -7px\9;
+	margin-left: 0px;
+	padding-top: 8px;
+	padding-top: 10px\9;
+	cursor:pointer;
+}
+
+
+
+
+
+
+
+/*副選單部分*/
+.header_tab .tab_container_top {
+	background-color: #fafafa;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #dadada;
+	height: 25px;
+	position:relative;
+	z-index:2;
+	font-size: 13px;
+	padding-top: 10px;
+}
+.tab_container_top ul li a {
+	color:#525252;
+	text-decoration:none;
+	white-space: nowrap;
+	padding:10px;
+	margin:-10px;
+}
+.tab_container_top ul li a:hover {
+	color:#ad0000;
+	text-decoration:underline;
+}
+.clearall {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.tab_container_top ul .working_top a {
+	color: #525252;
+	text-decoration: none;
+	display: block;
+}
+.tab_container_top ul .working_top:hover a {
+	color: #ad0000;
+}
+.header_tab .tab_container_top .working_top:hover {
+	text-decoration: none;
+	color: #ad0000;
+	display: block;
+	letter-spacing: 0px;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #cec9c9;
+	border-right-color: #cec9c9;
+	border-right-color: #cec9c9;
+	border-left-color: #cec9c9;
+	padding-top: 2px;
+	padding-right: 11px;
+	padding-left: 11px;
+	margin-right: -3px;
+	margin-top:-3px;
+	background: #FFF;
+	height: 22px;
+	position:relative;
+	z-index:60;
+}
+.header_tab .tab_container_top ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+.tab_container_top ul li {
+	padding-right: 8px;
+	padding-left: 12px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #cec9c9;
+	position: relative;
+	display:block;
+	z-index:65;
+}
+.tab_container_top .dropdown-columns {
+	min-width: 140px;
+	width: 140px;
+	position: absolute;
+	left:-999em;
+	display: block;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #CCC;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	border-left-color: #CCC;
+	margin-top: 5px;
+	height:auto;
+	-webkit-border-bottom-right-radius: 6px;
+	-webkit-border-bottom-left-radius: 6px;
+	-moz-border-radius-bottomright: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+	box-shadow: 0px 4px 6px #cecece;
+	padding-top: 0px;
+	z-index:50;
+	background-color: #FFF;
+}
+.tab_container_top ul li:hover .dropdown-columns {
+	left:-1px;
+	height:auto;
+}
+.dropdown-columns .col-5 {
+	font-weight: normal;
+	text-align: left;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: none;
+	border-bottom-style: solid;
+	border-top-color: #CCC;
+	border-bottom-color: #CCC;
+	padding-left: 25px;
+	height: 20px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+.dropdown-columns .col-5 a {
+	color:#353535 !important;
+	display: block;
+}
+.dropdown-columns .col-5:hover {
+	background-color: #d50000;
+	display: block;
+	cursor: pointer;
+}
+.dropdown-columns .col-5:hover a {
+	color: #FFF !important;
+	text-decoration: underline !important;
+}
+/*上面後 可拿掉*/
+#bg_test {
+	background-repeat: no-repeat;
+	height: 160px;
+	margin: 0 auto;
+	width: 950px;
+}
+/******header******/
+#header_top {
+	height: 85px;
+	margin: -10px auto 0;
+	text-align: left;
+	width: 950px;
+}
+#header_top #title{
+	font-size: 16px !important;
+}
+#header_top #logo_0905 {
+	display: block;
+	height: 54px;
+	margin-top: 15px;
+	position: absolute;
+	width: 107px;
+}
+#header_top #top_ad_0905 {
+	height: 68px;
+	margin-left: 650px;
+	margin-top: 7px;
+	position: absolute;
+	width: 300px;
+	z-index: 100;
+}
+#header_top #search_0905 {
+	height: 50px;
+	margin-left: 252px;
+	margin-top: 15px;
+	position: absolute;
+	width: 380px;
+	z-index: 106;
+}
+#search_0905 #main_search #select_all {
+	height: auto;
+	height: 30px\9;
+	width: auto;
+	list-style-type: none;
+	background-color: #efefef;
+	border: 1px solid #d9d9d9;
+	-webkit-border-radius: 1px;
+	-moz-border-radius: 1px;
+	border-radius: 1px;
+	padding-top: 3px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+	padding-bottom: 3px\9;
+	padding-left: 3px;
+}
+#search_0905 #main_search #select_all li {
+	float: left;
+}
+#search_0905 #main_search #select_all #select_list {
+	background: url(http://c.tw.rakuten-static.com/front/www/img/top/sprit/search_list.png) no-repeat transparent;
+	height:29px;
+	width:109px;
+	border: 0;
+	overflow: hidden;
+	text-align: right;
+}
+#search_0905 #main_search #select_all #select_list select {
+	background: transparent;
+	height:29px;
+	width:125px;
+	border: 0;
+	font-size: 12px;
+	border-radius: 0;
+	outline:none;
+	padding-left: 3px;
+	padding-bottom: 6px\9;
+	text-align: left;
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	padding-top:6px
+}
+#searchForm #input_bar input {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	background: url(http://c.tw.rakuten-static.com/front/www/img/top/sprit/search_input.png) transparent no-repeat;
+	height: 29px;
+	width: 190px;
+	padding-top: 6px\9;
+	padding-left: 6px;
+	outline:none;
+}
+#searchForm #search_btn .sButton {
+	background-image: url(http://c.tw.rakuten-static.com/front/www/img/top/sprit/search_btn.png);
+	background-repeat: no-repeat;
+	color:#FFF;
+	height: 29px;
+	width: 63px;
+	display:block;
+	border:0;
+	cursor:pointer;
+	outline:none;
+}
+/*#main_search {
+	margin-top: 29px;
+	margin-left: 263px;
+	position: relative;
+}*/
+#search_0905 #hot_keyword {
+	font-size: 13px;
+	margin-left: 0px;
+	margin-top:1px;
+	overflow:hidden;
+	/*background-color:#CCC;*/
+	width: 380px;
+	height:22px;
+}
+#search_0905 #hot_keyword a {
+	color:#1d54a7;
+	text-decoration:none;
+}
+#search_0905 #hot_keyword a:hover {
+	color:#1d54a7;
+	text-decoration:underline;
+}
+#search_0905 #hot_keyword #left_h {
+	float: left;
+	height: 20px;
+	width: 45px;
+	margin-left:10px;
+	margin-right:-15px;
+	color: #525252;
+	/*margin-top:7px;*/
+	margin-top:4px;
+}
+/* ------------------------------------------------------------------------ */
+/* Edited: Andrew Lee 2013/11/06 */
+#search_0905 #hot_keyword #option_h {
+	float: left;
+	width: 48px;
+	color: #525252;
+	/*margin-top:7px;*/
+	margin-top:3px;
+}
+#search_0905 #hot_keyword #right_h {
+	float: left;
+	/*height: 20px;*/
+	/*width:300px;*/
+	width:270px; /* Changed it from 300px to 280px*/
+	margin-top:-3px;
+	margin-top:-2px\9;
+}
+/* ------------------------------------------------------------------------ */
+#search_0905 #hot_keyword #right_h ul li {
+	font-size: 13px;
+	float: left;
+	padding: 0px;
+	margin-top: 7px;
+	padding-right: 5px;
+	margin-bottom: 7px;
+	margin-left: 0px;
+}
+#search_0905 #hot_keyword #right_h ul li h2 {
+	font-size: 13px;
+	font-weight: normal;
+	margin-left: 5px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+#search_0905 #hot_keyword #right_h ul {
+	margin: 0px;
+	padding: 0px;
+}
+.ad_bg {
+	background-image: url(http://c.tw.rakuten-static.com/front/www/img/top/sprit/dot-line.gif);
+	background-repeat: no-repeat;
+	display: block;
+	min-height: 22px;
+	width: 380px;
+	position: absolute;
+	padding-top:1px\9;
+}
+.ads {
+	background:url(http://c.tw.rakuten-static.com/front/www/img/top/sprit/topnav_left_line.png);
+	width: 2px !important;
+	margin-left: 0px !important;
+	padding-right: 0px !important;
+	height:25px;
+	text-indent:-999em;
+	float: left;
+}
+/* Edited: Andrew Lee 2013/11/08 CSS for input auto complete */
+		
+		#suggest {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #999;
+	margin-left: 0px;
+	margin-top: -2px;
+	margin-top: -7px\9;
+	padding: 5px;
+	position: absolute;
+	width:186px;
+	box-shadow: 1px 1px 5px #ccc;
+}
+#suggest ul li {
+	margin: 0;
+	padding: 0;
+	border: none;
+	line-height: 1;
+	font-size: 90%;
+}
+#suggest ul li a span {
+	background: #FFF09D;
+	text-decoration: none!important;
+	border: none;
+}
+#suggest ul li a {
+	display: block;
+	width: 446px;
+	width: 446px;
+	padding: 5px;
+	overflow: hidden;
+	color: #333;
+	background: white;
+}
+#suggest ul {
+	margin: 2px;
+	padding: 0 0 2px 0;
+	display: block;
+	zoom: 1;
+	overflow: hidden;
+	border-bottom: 1px solid #CCC;
+}
+#suggest p {
+	padding-top:3px\9;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	text-align: right;
+	font-size: 90%;
+}
+#suggest p a {
+	color:#1D54A7;
+}
+#searchWindow #k {
+	width:292px;
+	height:1.6em;
+}
+/* [end] CSS for input auto complete */
+	
+	
+/* 1.4.1_JP
+
+#topshare {
+	height: auto;
+	width: 300px;
+	font-size: 13px;
+	
+	margin-bottom: 20px;
+}
+/*標題文字h2的css*/
+.right_title {
+	display: block;
+	height: 12px;
+	font-size: 15px;
+	padding-left: 8px;
+	font-weight: bold;
+	padding-bottom: 3px;
+	color: #333;
+	background-image: url(http://c.tw.rakuten-static.com/front/www/img/top/sprit/tilte_icon.png);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	margin-bottom:7px;
+}
+.button_more {
+	background-image: url(http://c.tw.rakuten-static.com/front/www/img/top/sprit/more_btn.png);
+	background-repeat: no-repeat;
+	height: 17px;
+	width: 40px;
+	padding-left: 11px;
+	padding-top: 2px;
+	margin-left: 230px;
+	font-size:12px;
+}
+.button_more a {
+	color: #555555;
+!important  text-decoration: none;
+}
+.button_more a:hover {
+	color: #555555;
+!important  text-decoration: underline;
+}
+.right_title a {
+	text-decoration:none;
+	color: #333;
+}
+.right_title a:hover {
+	text-decoration:underline;
+	color: #333;
+}
+#topshare h3 {
+	margin: 0px;
+	padding: 0px;
+	font-size: 13px;
+	font-weight: normal;
+}
+.main_bg_tab, .main_bg_gradient {
+	background-image: url(http://c.tw.rakuten-static.com/front/www/img/top/sprit/sprit_optimize_png8_20130903.png);
+	background-repeat: no-repeat;
+}
+.main_bg_tab {
+	background-position: -221px 0;
+	width: 95px;
+	height: 25px;
+}
+.main_bg_gradient {
+	background-position: -335px 0;
+	width: 93px;
+	height: 25px;
+}
+#topshare ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	height:26px;
+}
+.clears {
+	clear: both;
+}
+.ui-state-default {
+	text-align: center;
+	float: left;
+	margin-left: 1px;
+	color: #333;
+	text-decoration: none;
+	display: block;
+	height: 20px;
+	width: auto;
+	background-attachment: scroll;
+	background-image: url(http://c.tw.rakuten-static.com/front/www/img/sprit/sprit_optimize_png8_20130903.png);
+	background-repeat: repeat-x;
+	background-position: -335px 0;
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-topright:3px;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-top-right-radius:3px;
+	border-top-left-radius:3px;
+	border-top-right-radius:3px;
+	padding-top: 5px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-top-color: #CCC;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	border-left-color: #CCC;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.ui-state-active {
+	color: #FFF;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-top-color: #e10000;
+	border-right-color: #e10000;
+	border-bottom-color: #e10000;
+	border-left-color: #e10000;
+	background-image: url(http://c.tw.rakuten-static.com/front/www/img/top/sprit/tab_bg.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+.ui-state-default a {
+	text-decoration: none !important;
+	color: #333;
+}
+.ui-state-active a, .ui-state-active a:hover, .ui-state-active a:link, .ui-state-active a:visited {
+	color: #FFF;
+	text-decoration: none;
+}
+#topshare #tab_box {
+	border-top-width: 3px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #c00000;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	border-left-color: #CCC;
+	margin-left: 1px;
+	height: auto;
+}
+.tab_box {
+	margin-top: 15px;
+	margin-right: 10px;
+	margin-left: 10px;
+	height: auto;
+	padding-bottom: 5px;
+}
+#topshare img {
+	border: 1px solid #e2e2e2;
+}
+.pic_ru {
+	display: inline-block;
+}
+.text_box {
+	/*	height:120px;*/
+	height:auto;
+	float: left;
+	margin-left:10px;/*	border-bottom-width: 1px;*/
+/*	border-bottom-style: dotted;*/
+/*	border-bottom-color: #CCC;*/
+}
+#topshare .nounderline {
+	margin-bottom:10px;
+}
+.nounderline .text_box {
+	height:120px;
+	float: left;
+	margin-left:10px;
+	border-bottom-width: 0px;
+	border-bottom-style: none;
+}
+.text_box a {
+	color: #1d54a7;
+	text-decoration: none;
+}
+.text_box a:hover {
+	color: #1d54a7;
+	text-decoration: underline;
+}
+/*#topshare  #tab_box  a{
+	
+	color: #1d54a7;
+	text-decoration: none;
+	
+	
+	
+	
+	}  
+#topshare  #tab_box  a:hover{
+  color: #1d54a7;
+	text-decoration: underline;
+
+
+}*/
+#topshare #tab_box .topshare_pic {
+	float: left;
+	height: 118px;
+	width: 118px;
+}
+.shop_text #shop_number {
+	background-image: url(http://c.tw.rakuten-static.com/front/www/img/top/sprit/mar.png);
+	background-repeat: no-repeat;
+	height: 15px;
+	width: 13px;
+	font-size: 10px;
+	color: #FFF;
+	padding-top: 1px;
+	padding-left: 4px;
+	float: left;
+}
+.shop_text .shop_content {
+	float: left;
+	width: 120px;
+	margin-left: 5px;
+	margin-bottom:10px;
+	line-height: 17px;
+	font-size: 13px;
+}
+.shop_home {
+	background-image: url(http://c.tw.rakuten-static.com/front/www/img/top/sprit/home_icon.png);
+	background-repeat: no-repeat;
+	background-position: 8px center;
+	height: 12px;
+	width: 80px;
+	padding-left: 23px;
+	font-size: 13px;
+}
+#topshare .content_box {
+	margin-bottom: 20px;
+}
+/*新店開張的css*/
+
+#shopopen_new {
+	background-image: url(../../img/top/sprit/subbox_line.png);
+	height: 200px;
+	width: 290px;
+	background-repeat: no-repeat;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	border-left-color: #CCC;
+	font-size: 12px;
+	padding-left: 10px;
+	padding-top: 8px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	padding-bottom:20px;
+}
+#shopopen_new .title_open {
+	margin-bottom: 5px;
+	display: inline-block;
+}
+#shopopen_new .title_open h2 {
+	font-size: 15px;
+	font-weight: 600;
+	margin: 0px;
+	padding: 0px;
+	display: inline-block;
+	color: #333;
+}
+#shopopen_new .title_open h2 a {
+}
+#shopopen_new .title_open h2 a:hover {
+}
+ul {
+	margin:0;
+	padding:0;
+	list-style-type: none;
+}
+#shopopen_new .box_open .shopname {
+	margin-bottom: 5px;
+	height: 45px;
+	width: auto;
+}
+#shopopen_new .box_open .shopname .shoppic {
+	float: left;
+	height: 40px;
+	width: 160px;
+	border: 1px solid #e2e2e2;
+}
+#shopopen_new .box_open .shopname .shop_descs {
+	float: left;
+	width: 105px;
+	height: 33px;
+	word-break:break-all;
+	margin-left: 10px;
+	margin-top: 5px;
+	font-size:13px;
+	overflow:hidden;
+}
+.shop_descs a {
+	color: #1d54a7;
+	text-decoration: none;
+}
+.shop_descs a:hover {
+	color: #1d54a7;
+	text-decoration: underline;
+}
+#shopopen_new .box_open .box_three dl {
+	height: auto;
+	width: 85px;
+	float: left;
+	margin-right: 12px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding: 0px;
+}
+#shopopen_new .box_open .box_three {
+	/*width: 290px;*/
+	height: auto;
+}
+#shopopen_new .box_open {
+	height: auto;
+	width: 290px;
+}
+#shopopen_new .box_open .box_three dl dd {
+	width: 85px;
+	/*height: 30px;*/
+	overflow: hidden;
+	color: #1d54a7;
+	text-align: left;
+	display: block;
+	margin-left: 1px;
+	margin-top: 1px;
+	font-size:12px;
+	line-height: 140%;
+}
+#shopopen_new .box_open .box_three dl dt {
+	border: 1px solid #e2e2e2;
+	height: 85px;
+	width: 85px;
+	margin-bottom: 2px;
+}
+.box_three dl dd a {
+	color: #1d54a7;
+	text-decoration: none;
+}
+.box_three dl dd a:hover {
+	color: #1d54a7;
+	text-decoration: underline;
+}
+#shopopen_new .showcase-button-wrapper {
+	position: absolute;
+	margin-top:-224px;
+	margin-left:180px;
+	cursor:pointer;
+	color: #b1b1b1;
+}
+.showcase-button-wrapper .active {
+	color: #be0501;
+}
+.showcase-button-wrapper span {
+	margin-left:3px;
+}
+.showcase-arrow-next, .showcase-arrow-previous {
+	background:url(../../img/top/sprit/sprit_optimize_png8_20130903.png) no-repeat;
+}
+#shopopen_new .showcase-arrow-next {
+	background-position: -30px 0;
+	width: 19px;
+	height: 19px;
+	position: absolute;
+	margin-top:-25px;
+	margin-left:263px;
+	cursor:pointer;
+}
+#shopopen_new .showcase-arrow-previous {
+	background-position: -1px 0;
+	width: 19px;
+	height: 19px;
+	position: absolute;
+	margin-top:-25px;
+	margin-left:238px;
+	cursor:pointer;
+}
+#shopopen_new .showcase-arrow-next:hover {
+	background-position: -29px -20px;
+	width: 19px;
+	height: 19px;
+	margin-top:-25px;
+	margin-left:263px;
+}
+#shopopen_new .showcase-arrow-previous:hover {
+	background-position: 0 -20px;
+	width: 19px;
+	height: 19px;
+	margin-top:-25px;
+	margin-left:238px;
+}
+/**/
+#hot_issue .showcase-arrow-next {
+	background-position: -30px 0;
+	width: 19px;
+	height: 19px;
+	position: absolute;
+	margin-top:-24px;
+	margin-left:274px;
+	cursor:pointer;
+}
+#hot_issue .showcase-arrow-previous {
+	background-position: -1px 0;
+	width: 19px;
+	height: 19px;
+	position: absolute;
+	margin-top:-24px;
+	margin-left:249px;
+	cursor:pointer;
+}
+#hot_issue .showcase-arrow-next:hover {
+	background-position: -29px -20px;
+	width: 19px;
+	height: 19px;
+	margin-top:-24px;
+	margin-left:274px;
+}
+#hot_issue .showcase-arrow-previous:hover {
+	background-position: 0 -20px;
+	width: 19px;
+	height: 19px;
+	margin-top:-24px;
+	margin-left:249px;
+}
+/**/
+
+#discount .showcase-arrow-next {
+	background-position: -30px 0;
+	width: 19px;
+	height: 19px;
+	position: absolute;
+	margin-top:-25px;
+	margin-left:274px;
+	cursor:pointer;
+}
+#discount .showcase-arrow-previous {
+	background-position: -1px 0;
+	width: 19px;
+	height: 19px;
+	position: absolute;
+	margin-top:-24px;
+	margin-left:249px;
+	cursor:pointer;
+}
+#discount .showcase-arrow-next:hover {
+	background-position: -29px -20px;
+	width: 19px;
+	height: 19px;
+	margin-top:-24px;
+	margin-left:274px;
+}
+#discount .showcase-arrow-previous:hover {
+	background-position: 0 -20px;
+	width: 19px;
+	height: 19px;
+	margin-top:-24px;
+	margin-left:249px;
+}
+/**/
+
+/**/
+
+
+
+/**********************************************************************/
+/*topbar*/
+#topmenu {
+	height: 25px;
+	width: 100%;
+	background-color: #efefef;
+	-moz-box-shadow: 0px 1px 0px;
+	-webkit-box-shadow: 0px 1px 0px #E2E2E2;
+	box-shadow: 0px 1px 0px #E2E2E2;
+	/*test*/
+	position:absolute;
+	margin-left:-10px;
+	margin-top:-10px;
+	/*padding-left:10px;*/
+	z-index:1000;
+}
+/**********left***************/
+#topmenu #mainbar {
+	height: 25px;
+	width: 950px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	position: relative;
+	z-index: 99;
+}
+#topmenu #mainbar h1 {
+	font-weight: 300;
+	color: #888888;
+	float: left;
+	font-size: 13px;
+	width: 320px;
+	overflow: hidden;
+	height: 16px;
+	display: block;
+	padding: 0px;
+	margin-top: 4px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#topmenu #mainbar ul {
+	width: auto;
+	list-style-type: none;
+	display: block;
+	float: right;
+	height: 19px;
+	/*padding-top: 6px;*/
+	font-size: 12px;
+	margin-top:6px;
+	position:relative;
+	z-index:100;
+	margin-right:-10px;
+}
+.first01 {
+	height: 14px;
+	padding-left: 10px;
+	padding-right: 8px;
+	background-image: url(http://c.tw.rakuten-static.com/front/www/img/top/sprit/sprit_optimize_png8_20130903.png);/*路徑要改掉*/
+	background-repeat: no-repeat;
+	background-position: -1000px -1000px!important; /*拿掉topbar線!!重要*/
+}
+#topmenu #mainbar ul li {
+	float: left;
+	height: 14px;
+}
+#mainbar .others {
+	float: left;
+	background-image: url(http://c.tw.rakuten-static.com/front/www/img/top/sprit/sprit_optimize_png8_20130903.png);
+	background-repeat: no-repeat;
+	background-position: -319px -128px;
+	height: 14px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#myaccount {
+	background-image: url(http://c.tw.rakuten-static.com/front/www/img/top/sprit/sprit_optimize_png8_20130903.png);/*路徑要改掉*/
+	background-repeat: no-repeat;
+	background-position: -319px -128px;
+	height: 14px;
+	padding-left: 0px;
+	padding-right: 5px;
+	/*min-width: 50px;*/
+	float: left;
+	text-align:center;
+}
+#webindex {
+	background-image: url(http://c.tw.rakuten-static.com/front/www/img/top/sprit/sprit_optimize_png8_20130903.png);/*路徑要改掉*/
+	background-repeat: no-repeat;
+	background-position: -319px -128px;
+	height: 14px;
+	padding-left: 0px;
+	padding-right: 5px;
+	/*min-width: 50px;*/
+	float: left;
+	text-align:center;
+}
+#service_desc {
+	background-image: url(http://c.tw.rakuten-static.com/front/www/img/top/sprit/sprit_optimize_png8_20130903.png);/*路徑要改掉*/
+	background-repeat: no-repeat;
+	background-position: -319px -128px;
+	height: 14px;
+	padding-left: 0px;
+	padding-right: 5px;
+	/*min-width: 50px;*/
+	float: left;
+	text-align:center;
+}
+#topmenu #mainbar ul li img {
+	vertical-align: top;
+	display: inline-block;
+}
+#myaccount a {
+	background-image: url(http://c.tw.rakuten-static.com/front/www/img/top/sprit/sprit_optimize_png8_20130903.png);/*路徑要改掉*/
+	background-repeat: no-repeat;
+	background-position: -324px -79px;
+	display: block;
+	height: 20px;
+	width: 85px;
+	text-decoration: none;
+	color: #505050;
+	padding-rigt: 3px !important;/*	padding-left: 6px;*/
+}
+/*************************/
+/***topbar主選單樣式***/
+#myaccount a:hover {
+	background-position: -324px -49px;
+	display: block;
+	height: 20px;
+	width: 85px;
+	margin-top: -7px;
+	padding-top:7px;
+	color: #FFF;
+	text-decoration: none!important;
+	background-color: #4E4A4A;/*padding-right: 3px;
+/*	padding-left: 6px;*/
+	
+	
+	
+	
+
+
+}
+#service_desc a {
+	background-image: url(http://c.tw.rakuten-static.com/front/www/img/top/sprit/sprit_optimize_png8_20130903.png);/*路徑要改掉*/
+	background-repeat: no-repeat;
+	background-position: -321px -79px;
+	display: block;
+	height: 20px;
+	width: 85px;
+	text-decoration: none;
+	color: #505050;
+	padding-right: 3px;/*	padding-left: 6px;*/
+}
+#service_desc a:hover {
+	background-position: -321px -49px;
+	display: block;
+	height: 20px;
+	width: 85px;
+	margin-top: -7px;
+	padding-top:7px;
+	color: #FFF;
+	text-decoration: none!important;
+	background-color: #4E4A4A;
+	padding-right: 3px;
+/*	padding-left: 6px;*/}
+#webindex a {
+	background-image: url(http://c.tw.rakuten-static.com/front/www/img/top/sprit/sprit_optimize_png8_20130903.png);/*路徑要改掉*/
+	background-repeat: no-repeat;
+	background-position: -321px -79px;
+	display: block;
+	height: 20px;
+	width: 85px;
+	text-decoration: none;
+	color: #505050;
+	padding-right: 3px;/*	padding-left: 6px;*/
+}
+#webindex a:hover {
+	background-position: -321px -49px;
+	display: block;
+	height: 20px;
+	width: 85px;
+	margin-top: -7px;
+	padding-top:7px;
+	color: #FFF;
+	text-decoration: none!important;
+	background-color: #4E4A4A;
+	padding-right: 3px;
+	/*	padding-left: 6px;*/;
+}
+/*************************/
+/*下拉式選單*/
+.dropmenu_topbar_01, .dropmenu_topbar_02, .dropmenu_topbar_03 {
+	position: absolute;
+	padding: 0px;
+	margin: 0px;
+	z-index:100;
+	text-align:left;
+}
+#myaccount .dropmenu_topbar_01 div {
+	background-color: #fff;
+	height: 20px;
+	width: 120px;
+	padding-top: 5px;
+	padding-left: 10px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #e2e2e2;
+	border-bottom-color: #e2e2e2;
+	border-left-color: #e2e2e2;
+}
+#service_desc .dropmenu_topbar_02 div {
+	background-color: #fff;
+	height: 20px;
+	width: 120px;
+	padding-top: 5px;
+	padding-left: 10px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #e2e2e2;
+	border-bottom-color: #e2e2e2;
+	border-left-color: #e2e2e2;
+}
+#webindex .dropmenu_topbar_03 div {
+	background-color: #fff;
+	height: 20px;
+	width: 120px;
+	padding-top: 5px;
+	padding-left: 10px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #e2e2e2;
+	border-bottom-color: #e2e2e2;
+	border-left-color: #e2e2e2;
+}
+/*************************/
+/* 下啦選單樣式*/
+#myaccount div a {
+	color: #555555;
+	text-decoration: none;
+	background-color: #CCC;
+	background:none;
+	width: 250px;
+}
+#myaccount div a:hover {
+	color: #bd0000;
+	text-decoration: underline!important;
+	background-color: #CCC;
+	background:none;
+	width: 250px;
+}
+#service_desc .dropmenu_topbar_02 div a {
+	color: #555555;
+	text-decoration: none;
+	background-color: #CCC;
+	background:none;
+	width: 250px;
+}
+#service_desc .dropmenu_topbar_02 div a:hover {
+	color: #bd0000;
+	text-decoration: underline!important;
+	background-color: #CCC;
+	background:none;
+	width: 250px;
+}
+#webindex .dropmenu_topbar_03 div a {
+	color: #555555;
+	text-decoration: none;
+	background-color: #CCC;
+	background:none;
+	width: 250px;
+}
+#webindex .dropmenu_topbar_03 div a:hover {
+	color: #bd0000;
+	text-decoration: underline !important;
+	background-color: #CCC;
+	background:none;
+	width: 250px;
+}
+#mainbar ul .others a {
+	color: #505050;
+	text-decoration:none;
+}
+#mainbar ul .others a:hover {
+	color: #bd0000;
+	text-decoration:underline;
+	vertical-align: top;
+}
+#mainbar ul .reds a {
+	color: #bd0000;
+	text-decoration:none;
+}
+#mainbar ul .reds a:hover {
+	color: #bd0000;
+	text-decoration:underline;
+}/*我要註冊 跟登入的css*/
+.widths {
+	max-width:80px;
+	overflow: hidden;
+}/*登入註冊的最大寬度*/
+.tab_active {
+	color: #bf0000;
+	font-weight:bold;
+}
+#new-hot-category #lnav01 {
+	min-height:61px;
+}
+#new-hot-category #lnav02 {
+	min-height:61px;
+}
+#new-hot-category #lnav03 {
+	min-height:42px;
+}
+#new-hot-category #lnav04 {
+	min-height:61px;
+}
+#new-hot-category #lnav05 {
+	min-height:61px;
+}
+#new-hot-category #lnav06 {
+	min-height:42px;
+}
+#new-hot-category #lnav07 {
+	min-height:61px;
+}
+#new-hot-category #lnav08 {
+	min-height:42px;
+}
+#new-hot-category #lnav09 {
+	min-height:61px;
+}
+#new-hot-category #lnav10 {
+	min-height:42px;
+}
+/* Top Navigation For Tabs By: Andrew Lee 2013/11/06*/
+
+.tab_container_top #tab3 {
+	padding-left: 10%;
+}
+.tab_container_top #tab4 {
+	padding-left: 20%;
+}
+.tab_container_top #tab5 {
+	padding-left: 20%;
+}
+.tab_container_top #tab8 {
+	padding-left: 47%;
+}
+.tab_container_top #tab9 {
+	padding-left: 58%;
+}
+.tab_container_top #tab10 {
+	padding-left: 50%;
+}
+.tab_container_top #tab11 {
+	padding-left: 50%;
+}
+/**************style.css*****************************/
+/****************************************************/
+/* CSS Document */
+
+.tab_contents {
+	display:none;
+}
+.red1, {
+ color:#ad0000 !important;
+}
+.red1 a {
+	color:#ad0000 !important;
+}
+.red1 a:hover {
+	color:#ad0000 !important;
+}
+body {
+	margin-top:10px !important;
+}
+#big_top_ad {
+	/*  display:  block打開  none關閉  */
+	display:none;
+	background:#7b1c20;
+	height:30px;
+	margin-bottom: 10px;
+	margin-top: -10px;
+	margin-left: -10px;
+	margin-right: -10px;
+	text-align:center;
+	box-shadow:0px 2px 5px #999;
+}
+#big_top_ad img {
+	height:30px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+#title {
+	position:absolute;
+	margin-top:30px;
+	margin-left:110px;
+	text-decoration:none;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------*/
+/* -------------------------------------------------------------------------------------------------------------------------*/
+/* Top Navigation For Tabs By: Andrew Lee 2013/11/06*
+
+
+/* Used to create the logos on top of the tabs */
+.newlogo{background:url(../../img/top/sprit/new_04_yc1.png) no-repeat}
+.hotlogo{background:url(../../img/top/sprit/hot_04_yc1.png) no-repeat}
+.newlogo2{background:url(../../img/top/sprit/new_04_yc2.png) no-repeat}
+.hotlogo2{background:url(../../img/top/sprit/hot_04_yc2.png) no-repeat}
+/*
+.newlogo{
+display: block;
+z-index: 1000;
+height: 16px;
+overflow: hidden;
+position: absolute;
+
+margin-top: -33px;
+margin-left: 20px;
+width: 22px;
+}
+
+.betalogo{
+display: block;
+z-index: 1000;
+height: 16px;
+overflow: hidden;
+position: absolute;
+margin-top: -33px;
+margin-left: 20px;
+width: 30px;
+}
+*/
+.newlogo{
+display: block;
+z-index: 1000;
+position: absolute;
+top: -1px;
+margin-left: -17px !important;
+width: 30px;
+height: 29px;
+}
+.hotlogo{
+display: block;
+z-index: 1000;
+position: absolute;
+top: -1px;
+margin-left: -17px !important;
+width: 30px;
+height: 29px;
+}
+.newlogo2{
+display: block;
+z-index: 1000;
+position: absolute;
+top: -1px;
+margin-left: -17px !important;
+width: 30px;
+height: 29px;
+}
+.hotlogo2{
+display: block;
+z-index: 1000;
+position: absolute;
+top: -1px;
+margin-left: -17px !important;
+width: 30px;
+height: 29px;
+}
+
+#topicPath {
+    background-color:transparent;
+	min-width: 950px;
+}
+
+.tab_contents{
+	display:none;
+	}
+.red1 ,{
+	color:#ad0000 !important;
+	}
+
+.red1 a{
+	color:#ad0000 !important;
+	}
+	
+.red1 a:hover{
+	color:#ad0000 !important;
+	}
+
+

@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+/* ジャンルカラー設定用CSS */
+
+/* ==============================================
+　　共通ヘッダ
+============================================== */
+
+/* サイトID・サービスタイトル
+-----------------------------------------------*/
+
+/* サービスタイトル文字色 */
+#header p#siteID strong a {
+	color: #ff3399;
+}
+
+/*Top menu mouse on*/
+dl#sectionNav dd.menuList ul li.on {background:url(http://c.tw.rakuten-static.com/front/www/img/category/ct_header_8.png) repeat-x scroll 0 -76px transparent;}
+/*Sub Menu BG*/
+dl#subSectionNav {background:url(http://c.tw.rakuten-static.com/front/www/img/category/ct_header_8.png) repeat-x scroll 0 -108px transparent;}
+/*Sub Menu Mouse On*/
+dl#subSectionNav dd.menuList ul li.on a, dl#subSectionNav dd.menuList ul li a:hover{background:url(http://c.tw.rakuten-static.com/front/www/img/category/ct_header_8.png) repeat-x scroll 0 -141px transparent;}
+/*Separator*/
+dl#subSectionNav dd.menuList ul li {border-left: 1px solid #D41066;}
+dl#subSectionNav dd.menuList ul li ol li{border-bottom:1px solid #D41066;}
+dl#subSectionNav dd.menuList ul li {border-left: 1px solid #D41066;}
+dl#subSectionNav dd.menuList ul li ol li a:hover{background-color:#D41066;}
+dl#subSectionNav dd.menuList ul li ol{border:1px solid #D41066;border-bottom:none;}

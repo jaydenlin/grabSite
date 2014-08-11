@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Search Module CSS
+-----------------------------------------------*/
+#contents #footprint{
+	float:left;
+	/* margin-right:10px; */
+	width:200px;
+	overflow:hidden;
+	zoom:1;
+}
+#footprint dt.naviTtl {
+	/* background-color:#BF0000; */
+	color:#FFFFFF;
+	font-weight:bold;
+	padding:5px;
+}
+#viewHistory {
+	background-color:#FFF;
+	border:2px solid #bf0000;
+	margin-top:10px;
+	/* margin-bottom:10px; */
+}
+
+#viewHistory dd{
+	margin:5px 5px 7px;
+}
+#viewHistory dl dd .viewList{}
+#viewHistory dl dd .viewList li {
+	/*  STG  testing  background:transparent url(http://c.tw.rakuten-static.com/front/common/img/bullet.gif) no-repeat 0 4px; */
+	list-style-image:none;
+	list-style-position: outside;
+	list-style-type:none;
+	margin:2px 0 8px 0;
+	
+	/* STG testing padding:0 0 0 14px; */
+	padding:0 0 0 0; /* new CSS for STG testing */
+	
+	overflow:hidden;
+	zoom:1;
+}
+#viewHistory dl dd .viewList li.photolist {
+	/*  STG  testing  background:transparent url(http://c.tw.rakuten-static.com/front/common/img/bullet.gif) no-repeat 0 center; */
+	list-style-image:none;
+	list-style-position: outside;
+	list-style-type:none;
+	margin:2px 0 8px 0;
+	
+	/* STG testing  padding:0 0 0 14px; */
+	padding:0; /* new CSS for STG testing */
+	
+	overflow:hidden;
+	zoom:1;
+}
+
+/* STG testing [begin] */
+#viewHistory dl dd .viewList li div.icon{ 
+       float:left; 
+       height: 60px; 
+       width:14px; 
+       } 
+#viewHistory dl dd .viewList li div.icon span{ 
+       margin: 25px 0; 
+       } 
+/* STG testing [end] */
+
+
+
+
+
+/*#viewHistory dl dd .viewList li img {
+	margin-right:4px;
+	float:left;
+	border:1px solid #CCC;
+}*/
+
+#viewHistory dl dd .viewList li div.img{
+	float:left;
+	width:60px;
+	height:60px;
+	margin-right:4px;
+	border:1px solid #CCC;
+	text-align :center;
+	vertical-align: middle;
+	overflow:hidden;
+	
+	/* Firefox, Chrome */
+	line-height : 67px;
+	white-space : nowrap;
+	
+	/* IE /
+	*font-size : 90px; / 100px * 0.9 = 90px */
+	*font-size : 49px;
+	*font-family : Arial;
+	
+	/* IE /
+	_font-size : 90px; / 100px * 0.9 = 90px */
+	_font-family : Arial; 
+}
+
+
+#viewHistory dl dd .viewList li div.img:after {
+	content : ".";
+	font-size : 1px;
+	margin-left : -1px;
+	opacity : 0;
+}
+
+#viewHistory dl dd .viewList li div.img img{
+	margin:auto 0;
+	vertical-align:middle;
+}
+
+#viewHistory dl dd .viewList li div.img img {
+	max-width:60px;
+	max-height:60px;
+	width:expression(this.width >60 && (this.height-60) <= (this.width-60) ? 60:true);
+	height:expression(this.height >60 && (this.height-60) > (this.width-60) ? 60:true);
+	vertical-align:middle;
+}
+#viewHistory dl dd .viewList li a, #viewHistory dl dd .viewList li span a{cursor:pointer; cursor:hand;}
+#viewHistory dl dd .viewList li span a.txtlink{width:104px; float:right; display:block; overflow:hidden; zoom:1;}
+#viewHistory dl dd .viewList li span a.txtlink {margin:0; padding:0; white-space:normal; word-wrap:break-word;}
+
+#viewHistory dl dd.more{
+	text-align:right;
+}
+#viewHistory dl dd.more a{
+	background:transparent url(http://c.tw.rakuten-static.com/front/common/img/arrow.gif) no-repeat 3px 7px;
+	padding:0 0 0 12px;
+}
+
+.vh-none{display:none;}
+
+/*Hack Search Item Price Fonts*/
+/*圖文-價格*/div#itemList table.pictxt td.item dd ul li.price span{font-size:165%; font-weight:normal; vertical-align:baseline;}
+/*圖片-價格*/ul#wsItem li dl dd ul.sale li.price span {font-size:165%; font-weight:normal;}
+/*文字-價格*/div#itemList table.pictxt td.priceBox dl.price dt span {font-size:165%; font-weight:normal;}
+
+/*圖文-運費*/div#itemList table.pictxt td.item dd ul li.attribute{margin-top:5px; *margin-top:7px; _margin-top:7px; font-size:12px; vertical-align:baseline;}

@@ -1,0 +1,67 @@
+﻿@charset "utf-8";
+
+/* ############################################################
+
+　　CSS Modules Import
+
+############################################################ */
+
+@import'../../../common/css/common.css';
+@import'../../../common/css/common_header.css';
+@import'../../../common/css/common_footer.css';
+@import'../../../common/css/layout_1columnw.css';
+@import'../../../common/css/common_module.css';
+
+/* IE5.5のみに適用 */
+@media tty {
+	i{content:"\";/*" "*/}}@m; @import '../../../common/css/win_ie55.css';/*";}
+}/* */
+
+div#footer{text-align:center;}
+#footer dl#groupNavi {margin-top:10px;}
+dl#sectionNav dd.menuList ul li span{background-image:url("../../common/img/bg_header_tab_right.gif");}
+dl#sectionNav dd.menuList ul li{background-image:url("../../common/img/bg_header_tab_left.gif");}
+#footer dl#groupServiceLink{text-align:left;}
+
+/* ############################################################
+SEO optimize
+############################################################ */
+#header #tagLine strong{
+	color: #999999;
+	text-align: right;
+	font-weight:normal;
+}
+#topicPath h2{display:inline;font-weight:normal;}
+
+/*utility-links*/
+#utility-all{margin:0; overflow:hidden; zoom:1;}
+#utility-links{margin:5px 32px 5px 0; _margin-right:15px; padding:0; font-family: Arial, Helvetica, sans-serif; font-size:12px; overflow:visible; zoom:1; line-height:14px; float:right;}
+#utility-links dd a, #utility-links dd a:link{text-decoration:none;}
+#utility-links dd a:hover{text-decoration: underline;}
+#utility-links dt, #utility-links dt dd{float:left;}
+#utility-links dd.fb,
+#utility-links dd.pk,
+#utility-links dd.tr,
+#utility-links dd.fp,
+#utility-links dd.hd,
+#utility-links dd.mt{float:left; margin:0 8px 0 0; padding-left:18px; background: url(http://c.tw.rakuten-static.com/front/www/img/event/share/share_ico.png) no-repeat 0 0; overflow:visible; zoom:1; line-height:130%;}
+#utility-links dt{margin:0; margin:2px 0 0 0\9;}
+#utility-links dd.fb{background-position:0 -1963px;}
+#utility-links dd.pk{background-position:0 -3726px;}
+#utility-links dd.tr{background-position:0 -3330px;}
+#utility-links dd.fp{background-position:0 -1818px;}
+#utility-links dd.hd{background-position:0 -3079px;}
+#utility-links dd.mt{background-position:0 -145px;}
+
+/*fb-like:facebook的讚*/
+#fb-like{float:left; display:block; width:500px; margin-left:32px; _margin-left:15px;}
+#fb-like iframe{border:none; overflow:hidden; width:500px; height:32px; overflow:visible; zoom:1;}
+
+/*Bug fix*/
+#header dl#remoteNav dd.siteUtility ul li.last_ng {
+	padding-right: 0;
+	border: none;
+}
+
+/*ShoppingCart Icon*/
+#header dl#remoteNav dd.siteUtility ul li.shoppingcart{background:url(http://c.tw.rakuten-static.com/front/www/img/cart/shopping_icon.jpg) no-repeat left 3px; padding-left:20px; background-position:left 2px;}
